@@ -1,0 +1,7 @@
+.base-button {
+    color: white;
+    background-color: #664de5;
+    height: 40px;
+    border: 1px solid #664de5;
+    border-radius: 4px;
+}

@@ -1,0 +1,17 @@
+.input-label{
+    display: block;
+    font-weight: 500;
+}
+
+.base-input{
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid lightgray;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.base-input:focus{
+    outline: 1px solid #664de5;
+}

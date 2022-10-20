@@ -1,0 +1,26 @@
+.card{
+    width: 190px;
+    height: 190px;
+    border: 1px solid #664de5;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0.2rem;
+    margin-bottom: 20px;
+}
+
+.card-icon, .card-header, .card-description{
+    width: 100%;
+    margin: 0.5rem;;
+}
+
+.card-header p{
+    font-weight: bold;
+}
+
+.card-header p, .card-description p{
+    margin-left: 0.5rem;
+}
+
+.card-description p{
+    color: #6d6d6d;
+}

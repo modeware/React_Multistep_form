@@ -1,0 +1,18 @@
+.dot {
+    height: 45px;
+    width: 45px;
+    background-color: #664de5;
+    color: #fff;
+    border-radius: 50%;    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .dot-center{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    grid-gap: 3rem;
+    justify-content: center;
+  }
