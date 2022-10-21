@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React_Multistep_form/static/css/main.3b18264f.css",
-    "main.js": "/React_Multistep_form/static/js/main.378c38dc.js",
+    "main.js": "/React_Multistep_form/static/js/main.dc618bae.js",
     "index.html": "/React_Multistep_form/index.html",
     "main.3b18264f.css.map": "/React_Multistep_form/static/css/main.3b18264f.css.map",
-    "main.378c38dc.js.map": "/React_Multistep_form/static/js/main.378c38dc.js.map"
+    "main.dc618bae.js.map": "/React_Multistep_form/static/js/main.dc618bae.js.map"
   },
   "entrypoints": [
     "static/css/main.3b18264f.css",
-    "static/js/main.378c38dc.js"
+    "static/js/main.dc618bae.js"
   ]
 }
