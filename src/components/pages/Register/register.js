@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import React from 'react'
 import Button from "../../atoms/button/button";
 import Input, { InputWithLabelLeft, InputWithLabel } from "../../atoms/input";
@@ -15,9 +15,21 @@ import tickImage from '../../../assets/tick.png'
 import team from '../../../assets/team.png'
 import person from '../../../assets/person.png'
 import Image from '../../atoms/image/image';
+import { useNavigate, useLocation, useParams } from "react-router-dom"; 
+
 
 const Register = (props) => {
+    let location = useLocation()
+    let navigate = useNavigate()
+    let {id} = useParams()
+    console.log(id)
     
+    useEffect(()=>{
+        if(!location.pathname.includes('register')){
+            navigate('/register/1')
+        }
+    }, [])
+
     const [formDetails, setFormDetails] = useState({
         'form1' : {userName:'', password: '', errors: []},
         'form2' : {workspaceName:'', workspaceUrl: '', errors: []}, 
@@ -90,10 +102,12 @@ const Register = (props) => {
             return;
         }
         next()
+        navigate(`/register/${step}`)
     }
 
     const onMoveStep = (i) => {
         goTo(i)
+        navigate(`/register/${i}`)
     }
 
  
